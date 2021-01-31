@@ -171,7 +171,7 @@ fig <-
     yaxis = list(title = ""),
     annotations = list(
       x = 1, y = 0.1, 
-      text = "Superficie total: 5373 ha", 
+      text = "Superficie total: 3212 ha", 
       showarrow = F, 
       xref='paper', yref='paper', 
       xanchor='right', yanchor='auto', 

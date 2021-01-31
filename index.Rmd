@@ -114,7 +114,7 @@ leaflet() %>%
   ) %>%
   addLegend(
     title = "Cobertura",
-    position = "bottomright",
+    position = "bottomleft",
     colors = colores_infraestructura_verde,
     labels = etiquetas_infraestructura_verde,
     group = "Cobertura"
@@ -126,12 +126,12 @@ leaflet() %>%
   ) %>%  
   addMiniMap(
     toggleDisplay = TRUE,
-    position = "bottomleft",
+    position = "bottomright",
     minimized = FALSE,
     tiles = providers$OpenStreetMap.Mapnik
   ) %>%
   addScaleBar(
-    position = "bottomleft",
+    position = "bottomright",
     options = scaleBarOptions(imperial = FALSE)
   ) %>%
   addMouseCoordinates()
